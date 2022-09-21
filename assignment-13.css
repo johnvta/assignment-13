@@ -1,0 +1,87 @@
+body {
+  background: rgb(8,6,45);
+  background: linear-gradient(90deg, rgba(8,6,45,1) 0%, rgba(6,6,29,1) 35%, rgba(20,45,91,1) 100%);
+}
+
+.nav-heading {
+  color: white;
+  margin: 15px 0px 15px 0px;
+}
+
+.form {
+  background-color: #F0EEF1;
+  max-height: 145px;
+  font-size: 20px;
+}
+
+.submit-button, .reset-button {
+  border-radius: 48px;
+  display: inline-flex;
+  min-height: 48px;
+  min-width: 120px;
+  position: relative;
+  padding: 0px 24px;
+  align-items: center;
+  background-color: white;
+  font-family: ProximaNova, sans-serif;
+  font-weight: 550;
+  color: black;
+  border: none;
+}
+
+.add-book-button {
+  border-radius: 48px;
+  display: inline-flex;
+  min-height: 48px;
+  min-width: 120px;
+  position: relative;
+  padding: 0px 24px;
+  align-items: center;
+  background-color: white;
+  font-family: ProximaNova, sans-serif;
+  font-weight: 550;
+  color: black;
+  border: none;
+}
+
+.add-book-button:hover, .submit-button:hover, .reset-button:hover {
+  background-color: gainsboro;
+}
+
+.books .card {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 275px;
+  width: 350px;
+  display: inline-block;
+  margin: 50px 10px 15px 10px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.library-showcase {
+  background-color: #F0EEF1;
+  border-style: groove;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding-bottom: 20px;
+}
+
+.remove-book-button, .read-book-button {
+  border-radius: 48px;
+  margin: 20px 10px 0px 10px;
+  padding: 5px;
+  min-height: 48px;
+  min-width: 120px;
+  font-family: ProximaNova, sans-serif;
+  font-weight: 550;
+  color: black;
+  border: none;
+}
+
+.remove-book-button:hover, .read-book-button:hover {
+  background-color: gainsboro;
+}
